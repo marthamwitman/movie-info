@@ -1,27 +1,14 @@
 {
-  "name": "movie-info",
+  "name": "movie-info-homeserver",
   "version": "3.0.2",
   "description": "Get information, images, rating, description, etc. about a movie.",
   "license": "MIT",
-  "repository": "lacymorrow/movie-info",
   "main": "index.js",
   "browser": "index.js",
-  "author": {
-    "name": "Lacy Morrow",
-    "email": "me@lacymorrow.com",
-    "url": "http://lacymorrow.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://patreon.com/lacymorrow"
-    },
-    {
-      "type": "individual",
-      "url": "http://lacymorrow.com/donate"
-    },
-    "https://www.buymeacoffee.com/lm"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marthamwitman/movie-info.git"
+  }
   "bin": {
     "movie-info": "cli.js"
   },
